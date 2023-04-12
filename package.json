@@ -2,28 +2,12 @@
   "name": "vite-plugin-hmr-callback",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.module.js",
-  "module": "lib/index.module.js",
   "type": "module",
-  "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "rm-dist": "rimraf dist"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
-  "files": [
-    "package.json",
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/xxxsjan/vite-plugin-hmr-callback.git"
-  },
-  "dependencies": {
-    "@babel/core": "^7.21.4",
-    "rollup": "^3.20.2",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
